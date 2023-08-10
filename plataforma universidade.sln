@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - apresentacao", "1 - apresentacao", "{E9DBF2E0-29CA-428F-A16C-0BD196AF2EC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - aplicacao", "2 - aplicacao", "{69170FB1-9E4A-4C60-A31E-2F6D51EB4F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - dominio", "3 - dominio", "{46DD6977-2149-46DA-83F0-DA39013F778F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - infra", "4 - infra", "{D1BD0005-6B0D-49C4-8F87-CD8D6533E0D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BA9A08C-E056-4A2E-93F9-CF5A3DB4FDB0} = {46DD6977-2149-46DA-83F0-DA39013F778F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C92C2F09-1019-43C5-91F7-9E99D5D37756}
+	EndGlobalSection
+EndGlobal
